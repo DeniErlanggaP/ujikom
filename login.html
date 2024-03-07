@@ -1,0 +1,35 @@
+<?php
+include("koneksi.php");
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" text="style/css" href="logreg.css" />
+    <title>Tampilan Login</title>
+  </head>
+
+  <body>
+    <form action="login.html" method="post">
+      <div class="container">
+        <h2>LOGIN</h2>
+        <tr>
+          <td><input type="email" placeholder="Masukkan Email" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="password" placeholder="Masukkan Password" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="button" value="Login" /></td>
+          <br />
+          <span>Belum punya akun?<a href="Register.html">Register</a></span>
+        </tr>
+      </div>
+    </form>
+  </body>
+</html>

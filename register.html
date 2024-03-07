@@ -1,0 +1,58 @@
+<?php
+include("koneksi.php");
+if ($_POST)
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="logreg.css" />
+    <title>Tampilan Register</title>
+  </head>
+
+  <body>
+    <form action="Register.html" method="post">
+      <div class="container">
+        <h2>REGISTER</h2>
+        <tr>
+          <td><input type="name" placeholder="Masukkan Username" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="password" placeholder="Masukkan Password" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="email" placeholder="Masukkan Email" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="name" placeholder="Masukkan Nama Lengkap" /></td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="text" placeholder="Masukkan Alamat" /></td>
+        </tr>
+        <h4>Pilih Level</h4>
+        <tr>
+          <td>
+            <select name="Pilih" id="option">
+              <option>Admin</option>
+              <option>Peminjam</option>
+            </select>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="submit" value="Register" /></td>
+          <br />
+          <span>Sudah punya akun?<a href="login.html">Login</a></span>
+          <br />
+        </tr>
+      </div>
+    </form>
+  </body>
+</html>
